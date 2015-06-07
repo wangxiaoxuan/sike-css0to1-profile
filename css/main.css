@@ -149,3 +149,44 @@ ul.inline-items li{
 	border-bottom: 3px solid black;
 	margin: 10px auto;
 }
+
+.education-experience__list li img{
+	width: 180px;
+	float: left;
+}
+
+.education-experience__list li{
+	overflow: hidden;
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.education-experience__list h3,
+.education-experience__title,
+.education-experience__description{
+	padding-left: 50px;
+	overflow: hidden;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+.photos__list li img{
+	width: 100%;
+}
+
+.photos__list li,
+.get-in-touch li {
+	list-style: none;
+    width: 25%;
+    padding: 10px;
+    float: left;
+    text-align: center;
+}
