@@ -3,6 +3,15 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
+
+	font-family:"Open Sans", "helvetica", arial, sans-serif;
+	font-weight: 300;
+	color:#62686f;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:#333;
+	font-weight: 300;
 }
 
 .container{
@@ -37,4 +46,106 @@ body{
 	font-family: 'Open Sans','helvetica',arial,sans-serif;
 	text-shadow: 0 1px rgba(0,0,0,0.3);
 	color: white;
+}
+
+ul.nostyle{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	text-align: center
+}
+
+ul.inline-items li{
+	display: inline-block;
+}
+
+.main-nav ul li{
+	margin: 15px 10px;
+}
+
+.main-nav ul li a {
+	color: #fff;
+	font-size:0.9rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+
+.main-nav {
+	background-color: #333;
+}
+
+.main-nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.info-section{
+	background-color: #fff;
+	padding: 30px 60px;
+}
+
+.whatido__skill-list{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.whatido__skill-list .whatido__skill
+{
+	float: left;
+	margin-top: 60px;
+}
+
+.whatido__skill-list li h3{
+	text-align: center;
+}
+
+.whatido__skill-list li p{
+	text-align: center;
+}
+
+.info-section header h2{
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align:center;
+}
+
+.info-section__description{
+	font-style:italic;
+	text-align:center;
+}
+
+.whatido__skill--code {
+  background-image: url(../img/skill-code.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 100px;
+  width: 33.3%;
+
+}
+
+.whatido__skill--design {
+  background-image: url(../img/skill-design.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 100px;
+  width: 33.3%;
+}
+
+.whatido__skill--product {
+  background-image: url(../img/skill-product.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 100px;
+  width: 33.3%;
+}
+
+.info-section header h2:after{
+	content:"";
+	display: block;
+	width: 90px;
+	border-bottom: 3px solid black;
+	margin: 10px auto;
 }
